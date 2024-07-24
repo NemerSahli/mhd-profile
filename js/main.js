@@ -85,7 +85,7 @@ function generateAboutMe() {
       <h3 class="pb-4">About Me</h3>
       <h4 class="my-name">Mohammad EL-Sahli</h4>
       <p class="profession">TBD</p>
-      <p>based in Berlin, Germany.</p>
+      <p>based in ...</p>
       <p>
         TBD
       </p>
