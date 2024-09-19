@@ -21,3 +21,14 @@ h1 {
 .bg-blue, .navbar-blue {
     background-color: #004aad !important;
 }
+
+
+.headline-social {
+    height: 700px !important;
+    width: 100%;
+  }
+  
+  .headline-social img {
+    margin-top: 40px;
+  }
+  
