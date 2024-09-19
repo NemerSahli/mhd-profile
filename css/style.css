@@ -9058,7 +9058,7 @@ footer {
   }
   .headline-social .container {
     max-width: 80%;
-    height: 400px;
+    /* height: 400px; */
     position: relative;
     top: 180px;
     left: 0;
@@ -9091,8 +9091,8 @@ footer {
   }
   .headline-social .container {
     position: relative;
-    height: 400px;
-    top: 150px;
+    /* height: 400px; */
+    top: 200px;
     left: 0;
   }
   .headline-social .container .text-center > p,
@@ -9108,5 +9108,15 @@ footer {
     height: 100px;
   }
 }
+
+.headline-social {
+  height: 700px !important;
+  width: 100%;
+}
+
+.headline-social img {
+  margin-top: 40px;
+}
+
 
 /*# sourceMappingURL=style.css.map*/

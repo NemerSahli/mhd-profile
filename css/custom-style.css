@@ -1,5 +1,4 @@
 .nav-link{
-    color: #004aad !important;
     font-weight: 600 !important;
     font-size: 22px;
 }
@@ -17,4 +16,8 @@ h1 {
 .market-area {
     width: 100%;
     margin-top: 24px;
+}
+
+.bg-blue, .navbar-blue {
+    background-color: #004aad !important;
 }
