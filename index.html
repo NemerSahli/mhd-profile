@@ -30,29 +30,29 @@
         </button>
         <div class="collapse navbar-collapse" id="topnav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item ">
-              <a class="nav-link text-white" href="#home">Home</a>
+            <li class="nav-item">
+              <a class="nav-link text-white" onclick="hideNavBar()" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#about">About</a>
+              <a class="nav-link text-white" onclick="hideNavBar()" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#vision">Vision</a>
+              <a class="nav-link text-white" onclick="hideNavBar()" href="#vision">Vision</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#mission">Mission</a>
+              <a class="nav-link text-white" onclick="hideNavBar()" href="#mission">Mission</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#offer">We Offer</a>
+              <a class="nav-link text-white" onclick="hideNavBar()" href="#offer">We Offer</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#products">Products</a>
+              <a class="nav-link text-white" onclick="hideNavBar()" href="#products">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#markets">Markets</a>
+              <a class="nav-link text-white" onclick="hideNavBar()" href="#markets">Markets</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#contact">Contact</a>
+              <a class="nav-link text-white" onclick="hideNavBar()" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -67,7 +67,7 @@
         <div class="col-md-12 text-center">
           <h1 class="text-dark">Welcome to Rising Horizon for Trading</h1>
           <div class="img-chip-wrapper">
-          <!-- <img src="./images/port-with-chip.webp" alt="port-with-chip" /> -->
+            <!-- <img src="./images/port-with-chip.webp" alt="port-with-chip" /> -->
           </div>
         </div>
       </div>
@@ -260,6 +260,13 @@
 
   <script src="./js/main.bundle.js "></script>
   <script src="./js/modernizr.js "></script>
+  <script>
+    function hideNavBar() {
+      const topNavList = document.querySelector('#topnav');
+      topNavList.classList.remove("show");
+    }
+  </script>
 </body>
+
 
 </html>
